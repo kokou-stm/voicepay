@@ -27,9 +27,10 @@ jobs:
 
       # Étape 4 : Construire l'image Docker
       - name: Build Docker image
-        run: docker build -t chezquizregister.azurecr.io/testvoice:latest .
+        run: docker build -t chezquizregister.azurecr.io/voiceapp:latest .
 
       # Étape 5 : Pousser l'image Docker vers le 
       - name: Push Docker image
-        run: docker push chezquizregister.azurecr.io/testvoice:latest
+        run: docker push chezquizregister.azurecr.io/voiceapp:latest
+
       
