@@ -1,0 +1,12 @@
+deepface 
+fastapi 
+keras 
+paypalrestsdk 
+pillow 
+python-multipart 
+requests 
+tqdm 
+uvicorn 
+sqlmodel
+sqlalchemy
+pydantic
